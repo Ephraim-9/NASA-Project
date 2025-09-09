@@ -7,7 +7,7 @@ const launch = {
   mission: "kepler Exploration X",
   rocket: "Explorer IS1",
   launchDate: new Date("December 27, 2030"),
-  destination: "kepler-442 b",
+  target: "kepler-442 b",
   customer: ["NASA"],
   upcoming: true,
   success: true,
@@ -24,7 +24,9 @@ function addNewLaunch(launch) {
   launches.set(
     latestFlightNumber,
     Object.assign(launch, {
-      customers: ["NASA"],
+      success: true,
+      upcoming: true,
+      customer: ["NASA"],
       flightNumber: latestFlightNumber,
     })
   );
