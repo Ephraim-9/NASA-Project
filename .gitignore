@@ -8,8 +8,8 @@ server/public/
 client/build/
 
 # Env files
-.env
-.env.local
+**/.env
+**/.env.local
 
 # Logs
 npm-debug.log*
