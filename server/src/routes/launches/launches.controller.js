@@ -1,6 +1,7 @@
 const {
   getAllLaunches,
   existsLaunchWithId,
+  scheduleNewLaunch,
   abortLaunchById,
 } = require("../../models/launches.model");
 
