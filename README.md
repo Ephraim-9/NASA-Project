@@ -178,7 +178,3 @@ This project is for **educational and demonstration purposes only**.
 ---
 
 > 🌠 “The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.” — Konstantin Tsiolkovsky
-
-```
-
-```
